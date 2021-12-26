@@ -6,4 +6,4 @@ we are using https://app.mediafire.com as a storage to make a download link for 
 In the part of advanced backdoor we were making socket connection using the local ip but this time we wanted it to be in public network ip so I used ngrok(reffer https://ngrok.com for more information)(by port forwarding) to run the server for reverse connection in public ip.
 We got a problem that the advanced backdoor when converted to exe it goes to a size of 60 mb even when compressed so we are using another option that we are creating a basic backdoor that just is able to run cmd and make persistent(Make the backdoor autorun run after reboot) to reduce the exe size to make it download faster and also run faster because we dont want out victims to know that we are trying to get remote access to their computer.Then we are going to run curl and install the advanced backdoor remotely.
 
-FOR MORE REFFER TO OUR YOUTBE CHANNEL - STRANGE LEARNINGS()
+FOR MORE REFFER TO OUR YOUTBE CHANNEL - STRANGE LEARNINGS(https://youtu.be/NZASumkG6M8)
